@@ -45,7 +45,7 @@ DropGrid.Logic functionality itself is specific game development logic designed 
 
 - **Drop Tiles**: Users can drop tiles of 3 types (R, G, B) into grid columns chosen by radio button.
 - **Remove Tiles**: "Tiles" (1, 2, or 3) can be removed from the grid by clicking to mark them for removal and then clicking the "Hit!" button that appears.
-- **Fall Tiles**: Tiles should appropriately cascade downward after removal.
+- **Falling Tiles**: Tiles should appropriately cascade downward after removal.
 
 ## DropGrid.Logic Code Design
 
