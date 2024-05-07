@@ -13,7 +13,7 @@
 > Naturally, the most time consuming part was the dynamic jQuery driven front-end interface, styling, and related testing, coming through in a little over 2 hours.
 >
 > Whenever 'New Game' is clicked a new Guid will appear, you can jump between games by clicking those Guids.
-> Within a game you can drop 3 different demo 'tiles' into the column chosen by radio button.
+> Within a game you can click the colored buttons to drop demo 'tiles' into the column chosen by radio button.
 > To test the removal handling click as many "non-zero" tiles as you like and click "Hit!" to remove them and settle the board.
 >
 > Feel free to request additional features for the sake of the demo!
