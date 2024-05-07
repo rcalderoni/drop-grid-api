@@ -1,0 +1,108 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.grid-box {
+    margin: auto;
+    width: fit-content;
+}
+
+.grid-box span {
+    padding: 10px;
+}
+
+.game-link {
+    color: #333;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.game-link:hover {
+    text-decoration: underline;
+}
+
+.game-link:visited {
+    color: #333;
+}
+
+.marked {
+    background-color: orange;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.tile {
+    text-decoration: none;
+}
+
+.tile:hover {
+    text-decoration: underline;
+    background-color: yellow;
+}
+
+.tile-0 {
+    color: dimgray;
+}
+
+.tile-1 {
+    color: red;
+}
+
+.tile-2 {
+    color: green;
+}
+
+.tile-3 {
+    color: blue;
+}
+
+.red-drop {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green-drop {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blue-drop {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-marked {
+    background-color: black;
+    color: orange;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
